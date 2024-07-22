@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax cave</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link" href="#!">Home</a>
+                    <a class="menu__link" href="#!">About</a>
+                    <a class="menu__link logo" href="#!">
+                        <img src="images/logo.svg" alt="Logo">
+                    </a>
+                    <a class="menu__link" href="#!">Blog</a>
+                    <a class="menu__link" href="#!">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="top">
+        <div class="top__layer top__layer--5" style="background-image: url(images/layer-5.webp);"></div>
+        <div class="top__layer top__layer--4" style="background-image: url(images/layer-4.webp);"></div>
+        <div class="top__layer top__layer--3" style="background-image: url(images/layer-3.webp);">
+            <div class="top__content">
+                <h1 class="top__content--title">let's go</h1>
+                <p class="top__content--text">on an incredible journey</p>
+            </div>
+        </div>
+        <div class="top__layer top__layer--2" style="background-image: url(images/layer-2.webp);"></div>
+        <div class="top__layer top__layer--1" style="background-image: url(images/layer-1.webp);"></div>
+
+    </div>
+    <div class="arrows-box" id="scrollButton">
+        <div class="arrows"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
